@@ -1,16 +1,26 @@
 {
-  "name": "realtime_chat_app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Piyush Anand",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^2.3.0",
-    "socket.js": "^0.1.4"
-  }
+    "name": "realtime_chat_app",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Piyush Anand",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0",
+        "socket.js": "^0.1.4"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/creatorpiyush/letschatbypiyush.git"
+    },
+    "bugs": {
+        "url": "https://github.com/creatorpiyush/letschatbypiyush/issues"
+    },
+    "homepage": "https://github.com/creatorpiyush/letschatbypiyush#readme",
+    "description": ""
 }
