@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/07ceacc377.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script async defer src="script.js"></script>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<div id="loginBox">
+    <!-- <input id="inpUsername" placeholder="Username" style="text-transform: lowercase;"> -->
+    <!-- <input id="inpPassword" type="password" placeholder="Enter Password"> -->
+
+    <!-- <button id="btnStart">START</button>  -->
+    <!-- // ///// -->
+    <h1>Login</h1>
+    <div class="textbox">
+        <i class="fas fa-user"></i>
+        <input id="inpUsername" placeholder=" Username (lowercase only)" style="text-transform: lowercase;">
+    </div>
+
+    <div class="textbox">
+        <i class="fas fa-user-lock"></i>
+        <input id="inpPassword" type="password" placeholder="  Enter Password">
+    </div>
+    <input class="button" type="button" id="btnStart" name="Sign in" value="Sign in">
+</div>
+
+<div id="chatBox">
+    <input id="inpToUser" placeholder="Send to (Default everyone)" style="text-transform: lowercase;">
+    <input id="inpNewmsg" placeholder="New Message">
+    <button id="btnSendMsg">SEND</button>
+    <ul id="ulMsg"></ul>
+</div>
+
+<body>
+
+</body>
+
+</html>
+
+
+<!-- onkeyup="return forceLower(this);"" -->
